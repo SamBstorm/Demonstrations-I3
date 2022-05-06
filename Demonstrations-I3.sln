@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Comparaison", "Demo-Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-SwitchCase", "Demo-SwitchCase\Demo-SwitchCase.csproj", "{B2B11DC3-5C14-4D2E-95BA-CDB097DB308A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Operateurs", "Demo-Operateurs\Demo-Operateurs.csproj", "{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Operateurs", "Demo-Operateurs\Demo-Operateurs.csproj", "{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Boucle", "Demo-Boucle\Demo-Boucle.csproj", "{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

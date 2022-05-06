@@ -45,14 +45,14 @@ namespace Demo_Operateurs
             if(o is string) Console.WriteLine("C'est une string!");
             else Console.WriteLine("Ce n'est pas une string...");
 
-            switch (o)
-            {
-                case string s:
-                    Console.WriteLine("C'est une string!");
-                default:
-                    else Console.WriteLine("Ce n'est pas une string...");
-                    break;
-            }
+            //switch (o)
+            //{
+            //    case string s:
+            //        Console.WriteLine("C'est une string!");
+            //    default:
+            //        else Console.WriteLine("Ce n'est pas une string...");
+            //        break;
+            //}
 
             #endregion
             #region convertir si compatible - ... as ...
