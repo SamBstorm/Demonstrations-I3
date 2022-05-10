@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Operateurs", "Demo-Ope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Boucle", "Demo-Boucle\Demo-Boucle.csproj", "{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Tableaux", "Demo-Tableaux\Demo-Tableaux.csproj", "{11802C79-7DDD-4F0D-8C68-080004C457DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
