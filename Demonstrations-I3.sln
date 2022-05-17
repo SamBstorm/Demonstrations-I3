@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-SwitchCase", "Demo-Swi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Operateurs", "Demo-Operateurs\Demo-Operateurs.csproj", "{3FCC829B-978B-4711-A5C7-B4E2CCBA14A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Boucle", "Demo-Boucle\Demo-Boucle.csproj", "{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Boucle", "Demo-Boucle\Demo-Boucle.csproj", "{47D4DB0B-FC0E-4E2E-B2F8-D5A6738C2E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Tableaux", "Demo-Tableaux\Demo-Tableaux.csproj", "{11802C79-7DDD-4F0D-8C68-080004C457DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Tableaux", "Demo-Tableaux\Demo-Tableaux.csproj", "{11802C79-7DDD-4F0D-8C68-080004C457DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-ReadKey", "Demo-ReadKey\Demo-ReadKey.csproj", "{E4CC5CC5-BEB7-4C25-952A-F8441F4F7D8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11802C79-7DDD-4F0D-8C68-080004C457DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CC5CC5-BEB7-4C25-952A-F8441F4F7D8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CC5CC5-BEB7-4C25-952A-F8441F4F7D8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CC5CC5-BEB7-4C25-952A-F8441F4F7D8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CC5CC5-BEB7-4C25-952A-F8441F4F7D8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
