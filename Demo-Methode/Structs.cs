@@ -8,9 +8,8 @@ namespace Demo_Methode
 {
     public struct ConsoleAvance { 
         
-        public void RainbowWriteLine()
+        public void RainbowWriteLine(string message)
         {
-            string message = "Hello rainbowWorld!";
             for (int i = 0; i < message.Length; i++)
             {
                 int dif = 15 - 9;
@@ -19,11 +18,22 @@ namespace Demo_Methode
             }
         }
 
-        public void ArrayWriteLine()
+        public void ArrayWriteLine(string[] array)
         {
-            string[] array = { "Virginie", "Shaila", "Resa", "Alina", "Charlotte", "Naïké", "Julie", "Vanessa", "Manon", "Zineb", "Scheherazad", "Cristine", "Hajar" };
+            
             Console.Write("[");
             foreach (string arrayElement in array)
+            {
+                Console.Write($"\"{arrayElement}\",");
+            }
+            Console.Write("\b]");
+            Console.WriteLine();
+        }
+        public void ArrayWriteLine(int[] array)
+        {
+
+            Console.Write("[");
+            foreach (int arrayElement in array)
             {
                 Console.Write($"{arrayElement},");
             }
@@ -31,6 +41,16 @@ namespace Demo_Methode
             Console.WriteLine();
         }
 
+        public void ArrayRainbowWriteLine(string[] array)
+        {
+            RainbowWriteLine("[");
+            foreach (string arrayElement in array)
+            {
+                RainbowWriteLine($"\"{arrayElement}\",");
+            }
+            RainbowWriteLine("\b]");
+            Console.WriteLine();
+        }
     }
 
 }
