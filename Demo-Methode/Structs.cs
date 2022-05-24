@@ -51,6 +51,23 @@ namespace Demo_Methode
             RainbowWriteLine("\b]");
             Console.WriteLine();
         }
+        
+        public string ArrayToString(string[] array)
+        {
+            if (array.Length > 0)
+            {
+                string result = "[";
+                foreach (string arrayElement in array)
+                {
+                    result += $"\"{arrayElement}\",";
+                }
+                result += "\b]";
+                return result;
+            }
+             return "[]";
+        }
+
+
     }
 
 }
